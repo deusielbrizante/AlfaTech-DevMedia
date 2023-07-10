@@ -1,0 +1,73 @@
+:root{
+    --branco: #fff;
+    --branco-medio: #f1f3f7;
+    --branco-cinza: #f6f6f6;
+    --cinza: #a89f9f;
+    --azul-escuro: #233032;
+    --azul-claro: #2f86d6;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    width: 100%;
+    background-color: var(--azul-claro);
+}
+
+header .conteudo{
+    margin: auto;
+    display: flex;
+    width: 1024px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteudo a, .logo p{
+    color: var(--branco);
+}
+
+.conteudo-principal{
+    padding: 100px 0;
+    margin: auto;
+    width: 1024px;
+}
+
+table tbody tr td{
+    padding: 5px;
+    font-size: 12px;
+    background-color: var(--branco);
+    width: 20%;
+}
+
+.cinza, tbody tr td{
+    background-color: var(--branco-medio);
+    text-align: center;
+}
+
+.canto{
+    height: 35px;
+    padding-left: 15px;
+    text-align: left;
+}
+
+.bolinha-azul{
+    width: 10px;
+    height: 10px;
+    margin: auto;
+    background-color: var(--azul-claro);
+    border-radius: 100px;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--azul-claro);
+    padding: 100px 0 60px 0;
+}
+
+.copyright .direitos{
+    margin-top: 20px;
+    color: var(--branco);
+    font-weight: 500;
+}

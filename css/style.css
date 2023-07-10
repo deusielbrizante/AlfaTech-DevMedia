@@ -1,0 +1,277 @@
+:root{
+    --branco: #fff;
+    --branco-medio: #f1f3f7;
+    --branco-cinza: #f6f6f6;
+    --cinza: #a89f9f;
+    --azul-escuro: #233032;
+    --azul-claro: #2f86d6;
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span{
+    color: var(--azul-claro);
+}
+
+header{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1024px;
+    padding: 35px 0;
+}
+
+.logo{
+    display: flex;
+    width: 320px;
+}
+
+.logo h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.logo p{
+    font-weight: bold;
+    font-size: 16px;
+    color: var(--azul-claro);
+}
+
+.logo img{
+    width: 70px;
+    margin-right: 10px;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li a{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--azul-escuro);
+    text-decoration: none;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--azul-claro);
+    padding: 180px 0;
+}
+
+.banner .conteudo{
+    width: 1024px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .conteudo p{
+    font-size: 16px;
+    color: var(--branco);
+}
+
+.banner .conteudo h2{
+    margin: 20px 0;
+    color: var(--branco);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.descricao-banner{
+    width: 470px;
+}
+
+.banner .conteudo figure{
+    width: 50%;
+}
+
+.anuncio{
+    padding: 40px 0;
+}
+
+.anuncio .conteudo{
+    margin: auto;
+    width: 1024px;
+    color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.anuncio .descricao{
+    width: 600px;
+}
+
+.anuncio h2{
+    font-size: 24px;
+}
+
+.anuncio p{
+    font-size: 16px;
+}
+
+.anuncio .link{
+    padding: 20px;
+    background-color: var(--azul-claro);
+    border-radius: 6px;
+}
+
+.anuncio a{
+    color: var(--branco);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.primeiro{
+    background-color: var(--azul-escuro);
+}
+
+.segundo{
+    background-color: var(--azul-claro);
+}
+
+.segundo .link{
+    background-color: var(--azul-escuro);
+}
+
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.texto-informacoes{
+    width: 900px;
+}
+
+.informacoes h2{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.informacoes span{
+    font-size: 32px;
+}
+
+.informacoes .beneficios{
+    width: 1024px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.informacoes .beneficios div{
+    width: 33%;
+}
+
+.informacoes .beneficios h3{
+    font-size: 18px;
+}
+
+.informacoes .beneficios p{
+    font-size: 16px;
+}
+
+.informacoes .beneficios img{
+    margin-bottom: 20px;
+    width: 120px;
+}
+
+.planos{
+    padding: 100px 0;
+    text-align: center;
+    margin: auto;
+}
+
+.planos img{
+    width: 120px;
+}
+
+.planos h2{
+    margin: auto;
+    font-size: 32px;
+    margin-bottom: 100px;
+}
+
+.planos .tabela{
+    margin: auto;
+    width: 1024px;
+    padding: 60px 0;
+    border-radius: 4px;
+    box-shadow: 0px 2px 40px 15px rgba(47,134,214,1);
+}
+
+.planos table{
+    margin: auto;
+    background-color: var(--branco);
+}
+
+table h3{
+    font-size: 18px;
+}
+
+table small{
+    font-size: 13px;
+    color: var(--cinza);
+}
+
+table tbody td{
+    width: 25%;
+    padding: 5px 0;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+table tbody tr:nth-child(odd){
+    background-color: var(--branco-medio);
+}
+
+table tbody tr:nth-child(even){
+    background-color: var(--branco-cinza);
+}
+
+table th{
+    width: 200px;
+    padding: 0 40px;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 0 60px 0;
+    width: 1024px;
+    margin: auto;
+    font-weight: bold;
+}
+
+.info-contato{
+    margin-top: 30px;
+    line-height: 35px;
+}
+
+footer{
+    font-size: 20px;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: bold;
+}
